@@ -1,0 +1,51 @@
+.table-section {
+    background-color: grey;
+  
+}
+
+.table-container {  
+    margin: auto;
+    height: 500px;
+    overflow: auto;
+    background-color: rgb(47, 47, 47);
+
+}
+
+.table {
+    background-color: white;
+    margin-top: 2%;
+    max-width: 95%;
+    justify-items: center;
+}
+
+th {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: black !important;
+    justify-content: center;
+   
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    background-color:rgb(255, 255, 255) !important;
+}
+
+tr{
+    background-color:lightgray !important;
+    border-color:black;
+}
+
+.table-container{
+    background-color:transparent;
+    width:90%;
+}
+
+#divers-list-div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+}

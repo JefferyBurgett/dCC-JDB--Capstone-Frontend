@@ -1,0 +1,39 @@
+.ds-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin: .5rem;
+}
+
+.divesite-container {
+    display: flex;
+    background-image: url(https://images8.alphacoders.com/384/thumb-1920-384520.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border: 1px black solid;
+    border-radius: 2%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.divesite-container li{
+    text-align: center;
+    border:1px solid black;
+    border-radius: 5px;
+    margin:1.5rem;
+}
+
+.divesite-list {
+    justify-content: center;
+    text-align: center;
+    
+}
+h1 {
+    color: white;
+}

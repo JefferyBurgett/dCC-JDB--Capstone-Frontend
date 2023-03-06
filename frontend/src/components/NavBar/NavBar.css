@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+#logo {
+  font-size: 45px;
+}
+
+body {
+  margin: 0;
+}
+
+.nav-row {
+  width: 100%;
+}
+.nav{
+  background-image: url("https://getwallpapers.com/wallpaper/full/b/3/5/591862.jpg");
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  height: 6rem;
+  gap: 2rem;
+  padding: 0 1rem;
+  width:100%;
+
+}
+
+.nav-row{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  color: rgb(255, 255, 255);
+  align-content: center;
+  align-items: center;
+}
+.brand {
+  cursor: pointer;
+  margin-left: 0%;
+  padding-right: 10px;
+  font-style: italic;
+  font-size: 5rem;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, rgb(3, 91, 255), white, rgb(0, 38, 255));
+  text-shadow: 2px, -2px #000000;
+  text-transform: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  color: rgb(0, 42, 255) !important;
+  text-decoration: none;
+}
+
+
+
+.nav-button:hover {
+  background: rgb(23, 21, 21);
+  color: rgb(226, 229, 231);
+  cursor: pointer;
+}
+
+.nav-button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  vertical-align: middle;
+  align-items: center;
+  padding-left: .5rem;
+}
+
+
+.nav li{
+  background-color:black;
+  border: 2px white solid;
+  border-radius:5px;
+  padding:0;
+  height:min-content;
+}
+
+#logo-div{
+  border:none;
+}

@@ -1,0 +1,43 @@
+.profile-p{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  
+  .profile-p p{
+    width:100%;
+  }
+
+  .profile-p button{
+    margin:1.5rem;
+    background-color:lightblue;
+  }
+
+  .profile-container{
+    border: 1px solid white;
+    border-radius:5px;
+    margin-top:1.5rem;
+    background-color:black;
+    color:white;
+    text-align: center;
+    width:500px;
+  }
+
+  .profile{
+    width:500px;
+  }
+
+  .profile-parent-div{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  #profile-button-div{
+    margin-top:10px;
+  }
+
+  #profile-button-div button{
+    margin-left:5px;
+    margin-right:5px;
+  }
